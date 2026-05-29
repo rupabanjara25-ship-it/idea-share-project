@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+          
+          <img src="logoimg.png" alt="" id="logo">
+          <nav>
+            <a href="#hero-section" class="nav">Home</a>
+            <a href="#explore" class="nav">Explore</a>
+           <button class="nav" id="btn">
+          <i class="fa-solid fa-plus"></i> Add Idea
+        </button>
+          </nav>
+    </header>
+
+
+
+<main>
+  <div id="hero-section">
+    <div class="flex">
+          <h1 class="hero-title">Turn Your Ideas <br><span class="text-gradient">Into Reality</span></h1>
+    <p class="hero-subtitle">
+          Share your project concepts, receive community feedback, gain votes, and find collaborators. The ultimate launching pad for student innovators.
+        </p>
+          <div class="hero-actions">
+          <button class="action" id="get">
+            Get Started <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <a href="#explore" class="action" id="browse">
+            Browse Ideas
+          </a>
+        </div>
+    </div>
+
+    <div class="flex" id="animation">
+
+        
+         <div>
+           <div class="cta" id="ai">
+          <i class="fa-solid fa-rocket text-accent"></i>
+         <div> 
+          <h4>AI Research Assistant</h4>
+            <p>Category: AI/ML</p>
+          </div>
+           
+          </div>
+        
+        <div class="cta" id="likes">
+          <i class="fa-solid fa-heart text-danger" id="like"></i>
+          <span>+48 Likes</span>
+        </div>
+        <div class="cta" id="comments">
+          <i class="fa-solid fa-comments text-success"></i>
+          <span>12 Comments</span>
+        </div>
+        <div class="visual-circle"></div>
+      </div>
+    </div>
+
+    </div>
+
+
+    <div id="explore">
+      <h2>Innovation Feed</h2>
+      <p>Discover what your peers are building and share your thoughts.</p>
+    </div>
+    <div id="mainidea">
+      <div class="idea-card">
+
+    </div>
+
+    </div>
+    
+
+    <div class="overlay">
+
+    <div class="idea-box">
+
+        <div class="top">
+            <h2>Share a New Idea</h2>
+            <span class="close">&times;</span>
+        </div>
+
+        <div class="form-group">
+    <label>Your Name <span>*</span></label>
+    <input type="text" id="username" placeholder="Enter your name">
+</div>
+
+        <div class="form-group">
+            <label>Idea Title <span>*</span></label>
+            <input type="text" placeholder="e.g. Smart Campus Waste Management System" id="title">
+        </div>
+
+        <div class="form-group">
+            <label>Description <span>*</span></label>
+
+            <textarea placeholder="Describe the problem, your solution, and target audience..." id="description"></textarea>
+        </div>
+
+        <div class="row">
+
+            <div class="form-group">
+                <label>Category</label>
+
+                <select id="category">
+                    <option>Web Development</option>
+                    <option>Mobile Apps</option>
+                    <option>AI / ML</option>
+                    <option>UI / UX</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Tags</label>
+
+                <input type="text" placeholder="e.g. react, node, automation" id="tags">
+            </div>
+
+        </div>
+
+        <div class="btns">
+            <button class="cancel">Cancel</button>
+            <button class="publish">Publish Idea</button>
+        </div>
+
+    </div>
+
+</div>
+  </div>
+  </main>
+
+  <footer>
+    <div></div>
+    <img src="logoimg.png" alt="" id="logo">
+
+    <p id="para">Empowering student builders to connect, build, and showcase their talents.</p>
+    <div>
+      <a href="#hero-section">About</a>
+    <a href="#contact">Contact</a>
+    </div>
+    <div id="contact">
+        <a href="https://github.com/rupabanjara25-ship-it" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://discord.com/channels/@me" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+    </div>
+    
+  </footer>
+
+
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
